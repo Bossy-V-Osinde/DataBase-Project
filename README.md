@@ -25,6 +25,7 @@ The database handles data interactions such as product retrieval, inventory mana
 
 
 ![image](https://github.com/user-attachments/assets/63dfe11f-d980-486d-a959-8bfb981418c8)
+
 ![image](https://github.com/user-attachments/assets/ebcbbdbe-d3a6-4d98-82de-5b9b8bb8e251)
 
 
