@@ -1,3 +1,8 @@
+-- Creating Database
+CREATE DATABASE ecommerceDB;
+
+-- Using the Database
+USE ecommerceDB;
 
 -- Table: product_category
 CREATE TABLE product_category (
@@ -67,4 +72,36 @@ CREATE TABLE product_item (
     FOREIGN KEY (product_id) REFERENCES product(product_id),
     FOREIGN KEY (color_id) REFERENCES color(color_id),
     FOREIGN KEY (size_id) REFERENCES size_option(size_id)
+);
+
+-- Table: product_image
+CREATE TABLE product_image (
+    image_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    image_url VARCHAR(255) NOT NULL,
+    alt_text VARCHAR(255),
+    FOREIGN KEY (product_id) REFERENCES product(product_id)
+);
+
+-- Table: product_variation
+CREATE TABLE product_variation (
+    variation_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    color_id INT NOT NULL,
+    size_id INT NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES product(product_id),
+    FOREIGN KEY (color_id) REFERENCES color(color_id),
+    FOREIGN KEY (size_id) REFERENCES size_option(size_id)
+);
+
+-- Table: product_attribute
+CREATE TABLE product_attribute (
+    attribute_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL,
+    attribute_category_id INT NOT NULL,
+    attribute_type_id INT NOT NULL,
+    value TEXT NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES product(product_id),
+    FOREIGN KEY (attribute_category_id) REFERENCES attribute_category(attribute_category_id),
+    FOREIGN KEY (attribute_type_id) REFERENCES attribute_type(attribute_type_id)
 );
