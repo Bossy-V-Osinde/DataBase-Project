@@ -24,6 +24,8 @@ The database handles data interactions such as product retrieval, inventory mana
 ![WhatsApp Image 2025-04-22 at 17 07 21_0e70bd85](https://github.com/user-attachments/assets/ddf0b4e7-7f78-4e36-b2ac-19fda06191d5)
 
 
+ Images of some of the tables for the E-commerce database: 
+
 ![image](https://github.com/user-attachments/assets/63dfe11f-d980-486d-a959-8bfb981418c8)
 
 ![image](https://github.com/user-attachments/assets/ebcbbdbe-d3a6-4d98-82de-5b9b8bb8e251)
