@@ -22,3 +22,6 @@ The database handles data interactions such as product retrieval, inventory mana
 - <a href="https://github.com/Bossy-V-Osinde/DataBase-Project/blob/main/Database%20Relationships.jpg">E-commerce Database ERD</a>
 
 ![WhatsApp Image 2025-04-22 at 17 07 21_0e70bd85](https://github.com/user-attachments/assets/ddf0b4e7-7f78-4e36-b2ac-19fda06191d5)
+
+![image](https://github.com/user-attachments/assets/316dca8c-35d5-4a1f-97ab-d54131af1c87)
+
