@@ -23,10 +23,10 @@ The database handles data interactions such as product retrieval, inventory mana
 
 ![WhatsApp Image 2025-04-22 at 17 07 21_0e70bd85](https://github.com/user-attachments/assets/ddf0b4e7-7f78-4e36-b2ac-19fda06191d5)
 
-![image](https://github.com/user-attachments/assets/316dca8c-35d5-4a1f-97ab-d54131af1c87)
+
 ![image](https://github.com/user-attachments/assets/63dfe11f-d980-486d-a959-8bfb981418c8)
 ![image](https://github.com/user-attachments/assets/ebcbbdbe-d3a6-4d98-82de-5b9b8bb8e251)
-![image](https://github.com/user-attachments/assets/1c94710c-de4d-440c-9a27-9602a442eab1)
+
 
 
 
